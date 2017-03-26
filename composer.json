@@ -13,7 +13,7 @@
         "MIT"
     ],
     "require" : {
-        "p3s/appbundle": "master"
+        "p3s/appbundle": "version-dev-1"
     },
     "autoload" : {
         "psr-0" : {
