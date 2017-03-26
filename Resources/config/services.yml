@@ -1,0 +1,4 @@
+services:
+#    p3s_app.example:
+#        class: p3s\AppBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

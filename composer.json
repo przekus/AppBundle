@@ -1,0 +1,30 @@
+{
+    "name" : "p3s/appbundle",
+    "description" : "App bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "app",
+        "email" : "przekus@wp.pl"
+    }],
+    "keywords" : [
+        "app bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "p3s\\AppBundle" : ""
+        }
+    },
+    "target-dir" : "p3s/AppBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "some_version-dev"
+        }
+    }
+}
