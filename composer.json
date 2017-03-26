@@ -20,8 +20,20 @@
         }
     },
     "target-dir" : "p3s/AppBundle",
-    "repositories" : [{
-    }],
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "p3s/appbundle",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/przekus/AppBundle.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        }
+    ],
     "extra" : {
         "branch-alias" : {
             "dev-master" : "version-dev-1"

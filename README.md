@@ -1,4 +1,4 @@
 Test
 
 INSTALL:
-composer require przekus/appbundle "version-dev-1"
+composer require p3s/appbundle "~version-dev-1"
