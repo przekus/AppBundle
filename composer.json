@@ -13,7 +13,7 @@
         "MIT"
     ],
     "require" : {
-        "p3s/appbundle": "version-dev-1"
+        "php": ">=5.5.9"
     },
     "autoload" : {
         "psr-0" : {
