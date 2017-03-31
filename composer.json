@@ -12,7 +12,14 @@
     "license" : [
         "MIT"
     ],
-    "minimum-stability": "dev",
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "p3s\\": "p3s/"
+        }
+    },
     "require" : {
     },
     "autoload" : {
